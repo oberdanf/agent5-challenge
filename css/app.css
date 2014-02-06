@@ -1,3 +1,9 @@
+body
+{
+  background-color: rgba(0, 0, 0, 0.15);
+  background-repeat: repeat-y;
+}
+
 #btn-navigation-sidebar
 {
   float: left;
@@ -16,12 +22,6 @@
   margin-left: 0;
   background-color: #3399ff;
   height: 7em;
-}
-
-#navigation-sidebar-row
-{
-  background-color: rgba(0, 0, 0, 0.15);
-  background-repeat: repeat-y;
 }
 
 .dynamic-content
