@@ -1,0 +1,42 @@
+#btn-navigation-sidebar
+{
+  float: left;
+  margin-left: 1em;
+}
+
+#logo
+{
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 0.5em;
+}
+
+#top
+{
+  margin-left: 0;
+  background-color: #3399ff;
+  height: 7em;
+}
+
+#navigation-sidebar-row
+{
+  background-color: rgba(0, 0, 0, 0.15);
+  background-repeat: repeat-y;
+}
+
+.dynamic-content
+{
+  margin-left: 0;
+  margin-top: 0.25em;
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+}
+
+.clear{clear: both; display: block;}
+
+@media (max-width: 767px) {
+  #menu .navbar-header {
+    background-color: #3399ff;
+  }
+}
