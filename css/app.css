@@ -1,13 +1,23 @@
 body
 {
-  background-color: rgba(0, 0, 0, 0.15);
-  background-repeat: repeat-y;
+  background-color: rgba(0, 0, 0, 0.10);
+  padding-right: 0.5em;
+}
+
+#navigation-sidebar a
+{
+  text-decoration: none;
 }
 
 #btn-navigation-sidebar
 {
   float: left;
   margin-left: 1em;
+}
+
+#context-menu
+{
+  overflow: visible;
 }
 
 #logo
@@ -20,8 +30,47 @@ body
 #top
 {
   margin-left: 0;
-  background-color: #3399ff;
+  background-color: #36BBCE;
   height: 7em;
+}
+
+#main-content
+{
+  background-color: white;
+}
+
+#dynamic-panel
+{
+  background-color: rgba(0, 0, 0, 0.10);
+}
+
+#learner-info
+{
+  margin-left: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+#students-at-glance
+{
+  text-transform: uppercase;
+}
+
+#calendar-date
+{
+  margin-top: 0.5em;
+  padding: 0;
+}
+
+.calendar-day
+{
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.calendar-month
+{
+  font-size: 2em;
+  text-transform: uppercase;
 }
 
 .dynamic-content
@@ -31,12 +80,38 @@ body
   border-style: solid;
   border-width: thin;
   border-color: gray;
+  background-color: white;
 }
 
-.clear{clear: both; display: block;}
+.search {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+}
 
 @media (max-width: 767px) {
   #menu .navbar-header {
     background-color: #3399ff;
+  }
+
+  #learner-thumb
+  {
+    width: 2em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #learner-thumb
+  {
+    width: 4em;
+  }
+}
+
+@media (min-width: 991px) {
+  #learner-thumb
+  {
+    width: 4em;
   }
 }
